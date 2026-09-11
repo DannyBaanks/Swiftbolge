@@ -15,7 +15,7 @@ campo con la de su hermano.
 | M5b | **Snapshot cruzado**: resume el JSON *de Rustbolge* | test `rustbolgeSnapshotResumesIdentically` + CLI `--resume` sobre `Rustbolge/evidence/hello_step17_snapshot.json` | mismo final que one-shot | OK |
 | M6 | Cross-validación contra Oracle | ver `evidence/oracle_swift_rust_parity.txt` | acuerdo exacto 3-ways | OK |
 | M7 | Integración a `malbolge-differential` como 5º backend | mismo kind `rustbolge-cli` (schema idéntico, solo otra entrada en backends.json) | D5 reproducido con 5 backends: hello CONSISTENT, EOF INCONCLUSIVE con halts idénticos a 128 steps | OK 2026-09-11 |
-| M8 | Repo git + push público | `gh repo create` | commit inicial `4b75ada`, push pendiente de OK | PENDIENTE |
+| M8 | Repo git + push público | `gh repo create` | `4b75ada` + `db3131a` en github.com/DannyBaanks/Swiftbolge | OK 2026-09-11 |
 
 ## M6 — Oracle cross-validation (2026-09-11)
 
