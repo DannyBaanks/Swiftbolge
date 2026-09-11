@@ -1,0 +1,9 @@
+﻿stamp: 2026-09-11
+three-way parity on Antivirusbolge/corpus/benign/hello_classic.mal
+same file, same SHA256 for all three backends
+
+ORACLE     : output='Hello, world.' steps=48 halta=halt_opcode a=19758 c=85 d=63
+RUSTBOLGE  : output='Hello, world.' steps=48 halt=VInstruction a=19758 c=85 d=63
+SWIFTBOLGE : output='Hello, world.' steps=48 halt=vInstruction a=19758 c=85 d=63
+RESULT     : EXACT 3-WAY AGREEMENT (stdout, steps, halt, final registers)
+cross-language extra: swiftbolge --resume on Rustbolge's step-17 snapshot reproduces the identical final state
