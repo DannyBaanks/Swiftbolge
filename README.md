@@ -1,9 +1,16 @@
-# Swiftbolge
+# Swiftbolge v2.0 — Classic Malbolge Engine in Swift 6.3 with Cross-Engine Snapshot/Resume
+
+[![Version](https://img.shields.io/badge/version-2.0-blue.svg)](https://github.com/DannyBaanks/Swiftbolge)
+[![Swift](https://img.shields.io/badge/Swift-6.3%2B-orange.svg)](https://swift.org)
+[![Tests](https://img.shields.io/badge/tests-5%2F5%20PASS-brightgreen.svg)]()
 
 Classic Malbolge engine in Swift 6.3 — semantic port, bit-exact, of
 `Malbolge-Engine/vm.c` (same as its brother *Rustbolge*), with **snapshot /
 resume** whose JSON schema is byte-compatible with Rustbolge's: either engine
 can resume the other's snapshot.
+
+Member of the **v2.0 Malbolge Multi-Oracle Consensus Fleet** alongside
+`Zigbolge v2.0`, `Rustbolge v2.0`, `Cobolge v2.0`, and `Fortranbolge v2.0`.
 
 Verified gates (see `ROADMAP.md` — every milestone mirrors Rustbolge's):
 
